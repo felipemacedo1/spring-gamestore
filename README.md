@@ -1,7 +1,8 @@
-# 🎮 Spring GameStore - API de Gestão de Loja de Jogos
+# Game Platform API
 
-## 🎯 Objetivo de Aprendizado
-API RESTful desenvolvida para estudar **gestão de e-commerce** e **arquitetura Spring Boot**. Implementa sistema completo de loja de jogos com **gerenciamento de categorias**, **inventário de produtos** e **autenticação de usuários**, aplicando boas práticas de desenvolvimento backend.
+Backend API for a game commerce platform built with Spring Boot. The project explores production-oriented API design through catalog management, inventory, authentication, external integrations and automated testing.
+
+The repository is also used as an engineering sandbox for evolving a conventional Spring application toward clearer boundaries, stronger tests and maintainable integrations.
 
 ## 🛠️ Tecnologias Utilizadas
 - **Framework:** Spring Boot, Spring Data JPA
@@ -42,7 +43,7 @@ API RESTful desenvolvida para estudar **gestão de e-commerce** e **arquitetura 
 
 ## 📁 Estrutura do Projeto
 ```
-spring-gamestore/
+game-platform-api/
 ├── src/main/java/
 │   ├── controller/               # REST Controllers
 │   │   ├── GameController.java   # Endpoints de jogos
